@@ -49,7 +49,7 @@ public class passGenGUI implements ActionListener {
             frame.setTitle("Password Generator");
             frame.add(panel);
             
-            titl = new JLabel("Welcome to the password Generator"); // title label
+            titl = new JLabel("Welcome to the password generator"); // title label
             titl.setBounds(125, 10, 300, 25);
             panel.add(titl);
 
