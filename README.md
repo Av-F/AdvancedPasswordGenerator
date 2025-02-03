@@ -1,3 +1,4 @@
 # AdvancedPasswordGenerator
- The more advanced version of my password generator.
-For personal use, don't steal.
+Provided in this repo are two Java programs. One program is an inline password generator and another is a password generator GUI developed with Java Swing. Both programs use arrays of different usable characters that one can use for a password. This includes alpha-numeric and non-alpha-numeric characters. From there both programs will ask the user for the size of the password needed and any other additional information needed. The programs both use random number generation which will grab random characters from the necessary arrays and build up a "password" string to give to the user. Finally, they both randomize the password to ensure every character is scrambled. 
+
+Where the programs divulge is that there are certain keywords I needed to use to program with Java Swing that would allow me to display what's going on in an interactable window instead of in Powershell. This meant adding additional lines of code that let the program do what it needed to do to facilitate password generation. This is in contrast to the in-line version where those additional steps were not necessary for a complete program. 
